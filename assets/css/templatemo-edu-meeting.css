@@ -269,7 +269,7 @@ header
   color: #1e1e1e!important;
 }
 
-.background-header .logo,.background-header .logo-1,
+.background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
 }
@@ -299,7 +299,6 @@ header
   min-height: 80px;
   background: transparent;
 }
-.header-area .main-nav .logo-1,
 .header-area .main-nav .logo {
   line-height: 100px;
   color: #fff;
@@ -312,21 +311,13 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  display: block; /* Add this line */
-}
-.header-area .main-nav .logo-1 {
-  /* Your existing styles */
-  display: block;
 }
 
-.header-area .main-nav .logo {
-  /* Your existing styles */
-  display: block;
-  margin-top: 30px;
-  margin-left: -49.5%; /* Adjust the margin as needed */
-}
-.background-header .main-nav .logo-1{
-  line-height: 75px;
+.header-area .main-nav .logo .square-logo{
+
+    width: 100px; 
+    height: 100px;
+    object-fit: cover; 
 }
 
 .background-header .main-nav .logo {
@@ -598,9 +589,6 @@ header
 }
 
 @media (max-width: 767px) {
-  .header-area .main-nav .logo-1{
-    color: #1e1e1e;
-  }
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -622,12 +610,12 @@ header
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo-1{
-    margin-left: 30px;
-  }
   .header-area .logo {
     margin-left: 30px;
   }
+
+
+
   .header-area .menu-trigger {
     display: block !important;
   }
